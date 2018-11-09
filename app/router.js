@@ -5,7 +5,7 @@ var handlers = {};
 // Hello handler
 handlers.hello =function(data, callback){
     // Callback a http status code, and a payload object
-    callback(200,{'assignment1': 'assignment fulfilled'});
+    callback(200,{'hello': 'almost'});
 }
 
 // Ping handler
